@@ -14,7 +14,11 @@ libraryDependencies +=  "com.google.guava" % "guava" % "11.0.1"
 
 libraryDependencies += "com.google.inject" % "guice" % "3.0"
 
-libraryDependencies += "net.databinder" %% "dispatch-http" % "0.8.8"
+libraryDependencies += "net.databinder" % "dispatch-http_2.9.1" % "0.8.8"
+
+libraryDependencies += "net.databinder" % "dispatch-nio_2.9.1" % "0.8.8"
+
+libraryDependencies += "net.databinder" % "dispatch-json_2.9.1" % "0.8.8"
 
 libraryDependencies += "org.apache.commons" % "commons-math" % "2.2"
 
