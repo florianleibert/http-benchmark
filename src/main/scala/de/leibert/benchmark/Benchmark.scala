@@ -30,8 +30,6 @@ object Benchmark {
   val numRequestsPerActor = parser.option[Int](List("requests_per_actor"),
     "requests_per_actor", "The number of requests per actor")
 
-  val counter = new AtomicLong(0)
-
   val stats = new SynchronizedDescriptiveStatistics()
 
   class Connection(h: Http, fun: Function[Http, Unit], latch: CountDownLatch) extends Actor {
